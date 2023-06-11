@@ -1,14 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package hitung;
 
-/**
- *
- * @author lenovo
- */
 public class MatematikaBeraksi {
-    
+    public static void main(String[] args) {
+        Matematika kristian = new Matematika (5, 7);
+        
+        System.out.println("Hasil dari Pertambahan = "+kristian.setPenjumlahan());
+        System.out.println("Hasil dari Pengurangan = "+kristian.setPengurangan());
+        System.out.println("Hasil dari Perkalian = "+kristian.setPerkalian());
+        System.out.println("Hasil dari Pembagian = "+kristian.setPembagian());
+    }
 }
